@@ -83,7 +83,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .fixed .navbar  { position: fixed; top: 60px; }
 
 .background-white { background: #FFFFFF; }
-.background-gray { background: #434242; }
+.background-blue { background: #003954; }
 .container { max-width: 1280px; padding: 40px 180px; }
 
 #profile .row > div { margin-bottom: 20px; }
