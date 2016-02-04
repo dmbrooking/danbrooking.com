@@ -45,7 +45,7 @@ function applyNavigation()
 
 function applyClickEvent()
 {
-	$('a[href*=#]').on('click', function(e)
+	$("a[href*=#]").on('click', function(e)
 	{
 		e.preventDefault();
 
@@ -70,7 +70,7 @@ function applyNavigationFixForPhone()
 
 function applyScrollSpy()
 {
-	$('#navbar-example').on('activate.bs.scrollspy', function()
+	$('#navbar').on('activate.bs.scrollspy', function()
 	{
 		window.location.hash = $('.nav .active a').attr('href').replace('#', '#/');
 	});

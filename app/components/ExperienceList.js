@@ -49,19 +49,13 @@ export default class Experience extends React.Component {
         <p className='lead'>
           &ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
         </p>
-
         <hr />
-
         <h3>Educations</h3>
-
         <div className='experiences'>
           {educationNodes}
         </div>
-
         <hr />
-
         <h3>Careers</h3>
-
         <div className='experiences'>
           {jobNodes}
         </div>
