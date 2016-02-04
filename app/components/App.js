@@ -3,7 +3,7 @@ import Navigation from './Navigation'
 import Jumbotron from './Jumbotron'
 import Profile from './Profile'
 import ExperienceList from './ExperienceList'
-import Ability from './Ability'
+import AbilityList from './AbilityList'
 import Project from './Project'
 import Contact from './Contact'
 
@@ -18,7 +18,7 @@ export default class App extends React.Component {
         <Jumbotron/>
         <Profile/>
         <ExperienceList/>
-        <Ability/>
+        <AbilityList/>
         <Project/>
         <Contact/>
       </div>

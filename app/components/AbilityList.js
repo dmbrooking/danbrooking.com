@@ -1,29 +1,55 @@
 import React from 'react'
-export default class Ability extends React.Component {
+import Firebase from 'firebase'
+import _ from 'lodash'
+
+import Tool from './Tool'
+
+export default class AbilityList extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      tools: []
+    }
+
+    this.firebaseToolsRef = new Firebase('https://danbrooking.firebaseio.com/tools')
+    this.firebaseToolsRef.once('value', (dataSnapshot) => {
+      var tools = dataSnapshot.val()
+      this.setState({
+        tools: tools
+      })
+    })
+  }
+
   render () {
+    var toolNodes = _.values(this.state.tools).map((tool, i) => {
+      return (
+        <Tool tool={tool} key={i} />
+      )
+    })
+
     return (
-<div className='background-white'>
-  <div id='abilities' className='container'>
-    <h2>Abilities</h2>
-<p className='lead'>
-&ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
-</p>
-<hr />
-<h3>Skills</h3>
-<div className='row'>
-<div className='col-md-6'>
-<ul className='no-bullets'>
-  <li>
-    <span className='ability-title'>CSS(3)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
+      <div className='background-white'>
+        <div id='abilities' className='container'>
+          <h2>Abilities</h2>
+          <p className='lead'>
+            &ldquo;Life without knowledge is death in disguise.&rdquo;<br/>- Talib Kweli
+          </p>
+          <hr />
+          <h3>Skills</h3>
+            <div className='row'>
+              <div className='col-md-6'>
+                <ul className='no-bullets'>
+                  <li>
+                    <span className='ability-title'>CSS(3)</span>
+                    <span className='ability-score'>
+                      <span className='glyphicon glyphicon-star filled'></span>
+                      <span className='glyphicon glyphicon-star filled'></span>
+                      <span className='glyphicon glyphicon-star filled'></span>
+                      <span className='glyphicon glyphicon-star filled'></span>
+                      <span className='glyphicon glyphicon-star filled'></span>
+                    </span>
+                  </li>
+                  <li>
     <span className='ability-title'>HTML(5)</span>
     <span className='ability-score'>
     <span className='glyphicon glyphicon-star filled'></span>
@@ -285,226 +311,16 @@ export default class Ability extends React.Component {
 <a href='https://github.com/pascalvgemert/resume' className='btn btn-primary' target='_blank'>See project on Github</a>
 </div>
 <hr />
-<h3>Languages</h3>
-<div className='row'>
-<div className='col-md-6'>
-<ul className='no-bullets'>
-  <li>
-    <span className='ability-title'>Dutch (Mother tongue)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>English (Daily use)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-</ul>
-</div>
-<div className='col-md-6'>
-<ul className='no-bullets'>
-  <li>
-    <span className='ability-title'>German (Survivable)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>French (Un petit peu)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-</ul>
-</div>
-</div>
-<hr />
 <h3>Tools</h3>
 <div className='row'>
 <div className='col-md-6'>
 <ul className='no-bullets'>
-  <li>
-    <span className='ability-title'>FileZilla (8 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Firefox (8 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>MS Office (10+ years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Mac (5 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Notepad++ (8 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Webkit browsers (6 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Windows (10+ years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Adobe Fireworks (8 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
+  {toolNodes.slice(0, 8)}
 </ul>
 </div>
 <div className='col-md-6'>
 <ul className='no-bullets'>
-  <li>
-    <span className='ability-title'>Coda2 (3 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Git / Git Flow (4 year)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Internet Explore 6+ (8 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>MAMP (2 year)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Stash (1 year)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Sublime Text (2 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Subversion (5 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
-  <li>
-    <span className='ability-title'>Adobe Photoshop (6 years)</span>
-    <span className='ability-score'>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star filled'></span>
-      <span className='glyphicon glyphicon-star '></span>
-      <span className='glyphicon glyphicon-star '></span>
-    </span>
-  </li>
+  {toolNodes.slice(8, 16)}
 </ul>
 </div>
 </div>			</div>

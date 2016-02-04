@@ -71,5 +71,71 @@
       "location": "'s-Hertogenbosch",
       "website": "http://www.whoopaa.com/"
     }
+  },
+  "tools": {
+    "0": {
+      "name": "Firezilla",
+      "rating": "5"
+    },
+    "1": {
+      "name": "Firefox",
+      "rating": "5"
+    },
+    "2": {
+      "name": "MS Office",
+      "rating": "5"
+    },
+    "3": {
+      "name": "Mac",
+      "rating": "5"
+    },
+    "4": {
+      "name": "Notepad++",
+      "rating": "5"
+    },
+    "5": {
+      "name": "Webkit Browsers",
+      "rating": "5"
+    },
+    "6": {
+      "name": "Windows",
+      "rating": "5"
+    },
+    "7": {
+      "name": "Adobe Fireworks",
+      "rating": "4"
+    },
+    "8": {
+      "name": "Coda 2",
+      "rating": "4"
+    },
+    "9": {
+      "name": "Git / Git Flow",
+      "rating": "4"
+    },
+    "10": {
+      "name": "Internet Explore 6+",
+      "rating": "4"
+    },
+    "11": {
+      "name": "MAMP",
+      "rating": "4"
+    },
+    "12": {
+      "name": "Stash",
+      "rating": "4"
+    },
+    "13": {
+      "name": "Sublime Text",
+      "rating": "4"
+    },
+    "14": {
+      "name": "Subversion",
+      "rating": "4"
+    },
+    "15": {
+      "name": "Adobe Photoshop",
+      "rating": "3"
+    }
   }
 }
