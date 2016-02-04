@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from './Navigation'
 import Jumbotron from './Jumbotron'
 import Profile from './Profile'
-import Experience from './Experience'
+import ExperienceList from './ExperienceList'
 import Ability from './Ability'
 import Project from './Project'
 import Contact from './Contact'
@@ -17,7 +17,7 @@ export default class App extends React.Component {
         <Navigation/>
         <Jumbotron/>
         <Profile/>
-        <Experience/>
+        <ExperienceList/>
         <Ability/>
         <Project/>
         <Contact/>
