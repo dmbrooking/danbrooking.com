@@ -1,0 +1,75 @@
+{
+  "educations":  {
+    "0": {
+      "name": "Rodenborch",
+      "dates": "Aug 1999 - Jun 2004",
+      "description": "Highschool - Havo (Nature/Technics & Nature/Health)",
+      "summary": "I graduated highschool, where I enjoyed doing science, math, biology and arts. I realized in my third year of school that I wanted to do something with websites, and so I started making small flash/actionscript applications.",
+      "location": "Rosmalen"
+    },
+    "1": {
+      "name": "Avans Highschool",
+      "dates": "Aug 2004 - Jun 2008",
+      "description": "Bachelor - Computer Science (Specialization: Multimedia)",
+      "summary": "The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.",
+      "location": "'s-Hertogenbosch"
+    },
+    "2": {
+      "name": "Penn University",
+      "dates": "Mar 2014 - May 2014",
+      "description": "Course - Gamification (course)",
+      "summary": "Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.",
+      "location": "Online"
+    }
+  },
+  "jobs": {
+    "0": {
+      "name": "The Secret Lab",
+      "dates": "Aug 2015- current",
+      "title": "Fulltime - Senior Web Developer",
+      "summary": "As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.",
+      "location": "Amsterdam",
+      "website": "http://thesecretlab.nl"
+    },
+    "1": {
+      "name": "Caviar Digital",
+      "dates": "Feb 2015 - Jul 2015",
+      "title": "Fulltime - Creative Developer",
+      "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
+      "location": "Amsterdam",
+      "website": "http://digital.caviarcontent.com/"
+    },
+    "2": {
+      "name": "Whoopaa / HRMatches",
+      "dates": "Aug 2015 - current",
+      "title": "Fulltime - Lead Developer",
+      "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
+      "location": "'s-Hertogenbosch",
+      "website": "http://www.whoopaa.com/"
+    },
+    "3": {
+      "name": "The Secret Lab",
+      "dates": "Aug 2015 - current",
+      "title": "Fulltime - Senior Web Developer",
+      "summary": "As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.",
+      "location": "Amsterdam",
+      "website": "http://thesecretlab.nl"
+    },
+    "4": {
+      "name": "Caviar Digital",
+      "dates": "Feb 2015 - Jul 2015",
+      "title": "Fulltime - Creative Developer",
+      "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
+      "location": "Amsterdam",
+      "website": "http://digital.caviarcontent.com/"
+    },
+    "5": {
+      "name": "Whoopaa / HRMatches",
+      "dates": "Aug 2015 - current",
+      "title": "Fulltime - Lead Developer",
+      "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
+      "location": "'s-Hertogenbosch",
+      "website": "http://www.whoopaa.com/"
+    }
+  }
+}
