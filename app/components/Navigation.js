@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default class Navigation extends React.Component {
-  render() {
+  render () {
     return (
       <nav className='navbar navbar-default' id='navbar' role='navigation'>
         <div className='navbar-header'>

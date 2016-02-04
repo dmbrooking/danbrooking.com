@@ -30,7 +30,7 @@ export default class Experience extends React.Component {
     })
   }
 
-  render() {
+  render () {
     var educationNodes = _.values(this.state.educations).map((education, i) => {
       return (
         <Education education={education} key={i} />
