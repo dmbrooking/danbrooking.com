@@ -14,6 +14,8 @@ process.env.BABEL_ENV = TARGET;
 const common = {
   entry: PATHS.app,
 
+  output: { publicPath: '/' },
+  
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
@@ -34,7 +36,7 @@ const common = {
 			{ test: /\.(woff|woff2)$/, loader:"url?prefix=font/&limit=5000" },
 			{ test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
 			{ test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" },
-      { test: /\.jpg$/, loader: 'url-loader?limit=100000', include: PATHS.app }
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=100000', include: PATHS.app }
     ]
   }
 };
