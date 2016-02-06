@@ -30,5 +30,5 @@ export default class Education extends React.Component {
 }
 
 Education.propTypes = {
-  education: React.PropTypes.instanceOf(Education)
+  education: React.PropTypes.object
 }

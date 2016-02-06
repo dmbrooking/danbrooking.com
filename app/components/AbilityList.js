@@ -32,6 +32,7 @@ export default class AbilityList extends React.Component {
 
   render () {
     var toolNodes = _.values(this.state.tools).map((tool, i) => {
+      console.log(i)
       return (
         <Tool tool={tool} key={i} />
       )

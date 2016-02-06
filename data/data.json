@@ -243,5 +243,49 @@
       "name": "Ruby",
       "rating": "1"
     }
+  },
+  "projects": {
+    "0":  {
+      "name": "Mals",
+      "description": "Mals, a creative agency located in Rotterdam.",
+      "tags": "Development, Wordpress, Bootstrap",
+      "url": "http://studiomals.com",
+      "image": "projects_picklejar.png"
+    },
+    "1":  {
+      "name": "Medisch Biomagnetisme",
+      "description": "A nice one pager build for Hanneke Velthuijsen.",
+      "tags": "Development, Design, Bootstrap, Wordpress",
+      "url": "http://medischbiomagnetisme.com",
+      "image": "projects_rollipoll.png"
+    },
+    "2":  {
+      "name": "SOAP - Den Bosch",
+      "description": "Build the website of the local barbershop.",
+      "tags": "Design, Development, Bootstrap, Wordpress",
+      "url": "http://soaphair.nl",
+      "image": "projects_betwixt.png"
+    },
+    "3":  {
+      "name": "Oranjebitter Rotterdam",
+      "description": "Build a website for the Oranjebitter Festival in Rotterdam.",
+      "tags": "Development, Bootstrap, Wordpress",
+      "url": "http://oranjebitter-rotterdam.nl",
+      "image": "projects_datapipe.png"
+    },
+    "4":  {
+      "name": "Vera Mulder",
+      "description": "Created a personal website for the Journalist Vera Mulder.",
+      "tags": "Development, Design, Wordpress, Bootstrap",
+      "url": "http://veramulder.com",
+      "image": "projects_brokerchat.png"
+    },
+    "5":  {
+      "name": "Oetelspel",
+      "description": "An online game specially for Carneval at 's-Hertogenbosch.",
+      "tags": "Development, Concept, Founder",
+      "url": "'http://oetelspel.nl",
+      "image": "projects_liaison.png"
+    }
   }
 }

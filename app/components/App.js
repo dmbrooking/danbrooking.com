@@ -4,7 +4,7 @@ import Jumbotron from './Jumbotron'
 import Profile from './Profile'
 import ExperienceList from './ExperienceList'
 import AbilityList from './AbilityList'
-import Project from './Project'
+import ProjectList from './ProjectList'
 import Contact from './Contact'
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
@@ -19,7 +19,7 @@ export default class App extends React.Component {
         <Profile/>
         <ExperienceList/>
         <AbilityList/>
-        <Project/>
+        <ProjectList/>
         <Contact/>
       </div>
     )

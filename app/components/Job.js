@@ -35,5 +35,5 @@ export default class Job extends React.Component {
 }
 
 Job.propTypes = {
-  job: React.PropTypes.instanceOf(Job)
+  job: React.PropTypes.object
 }
