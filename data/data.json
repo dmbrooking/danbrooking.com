@@ -74,7 +74,7 @@
   },
   "tools": {
     "0": {
-      "name": "Firezilla",
+      "name": "Google Chrome",
       "rating": "5"
     },
     "1": {
@@ -90,11 +90,11 @@
       "rating": "5"
     },
     "4": {
-      "name": "Notepad++",
+      "name": "Atom",
       "rating": "5"
     },
     "5": {
-      "name": "Webkit Browsers",
+      "name": "Jira",
       "rating": "5"
     },
     "6": {
@@ -102,19 +102,19 @@
       "rating": "5"
     },
     "7": {
-      "name": "Adobe Fireworks",
-      "rating": "4"
+      "name": "Scrum",
+      "rating": "5"
     },
     "8": {
-      "name": "Coda 2",
+      "name": "Github",
       "rating": "4"
     },
     "9": {
-      "name": "Git / Git Flow",
+      "name": "Herok",
       "rating": "4"
     },
     "10": {
-      "name": "Internet Explore 6+",
+      "name": "Bitbucket",
       "rating": "4"
     },
     "11": {
@@ -122,85 +122,85 @@
       "rating": "4"
     },
     "12": {
-      "name": "Stash",
-      "rating": "4"
+      "name": "AWS",
+      "rating": "3"
     },
     "13": {
       "name": "Sublime Text",
-      "rating": "4"
+      "rating": "3"
     },
     "14": {
       "name": "Subversion",
-      "rating": "4"
+      "rating": "3"
     },
     "15": {
-      "name": "Adobe Photoshop",
+      "name": "Eclipse",
       "rating": "3"
     }
   },
   "skills": {
     "0": {
-      "name": "CSS3",
+      "name": "Ruby",
       "rating": "5"
     },
     "1": {
-      "name": "HTML5",
+      "name": "Rails",
       "rating": "5"
     },
     "2": {
-      "name": "JSON",
+      "name": "Rspec",
       "rating": "5"
     },
     "3": {
-      "name": "MySQL",
+      "name": "HTML5",
       "rating": "5"
     },
     "4": {
-      "name": "PHP",
+      "name": "CSS3",
       "rating": "5"
     },
     "5": {
-      "name": "XML",
-      "rating": "5"
+      "name": "Node.js",
+      "rating": "4"
     },
     "6": {
-      "name": "Bootstrap Framework",
+      "name": "React",
       "rating": "4"
     },
     "7": {
-      "name": "Builder Pattern",
+      "name": "PL/SQL",
       "rating": "4"
     },
     "8": {
-      "name": "Command Line",
+      "name": "Bootstrap",
       "rating": "4"
     },
     "9": {
-      "name": "jQuery",
+      "name": "Command Line",
       "rating": "4"
     },
     "10": {
-      "name": "Java",
+      "name": "jQuery",
       "rating": "4"
     },
     "11": {
-      "name": "Javascript",
+      "name": "Java",
       "rating": "4"
     },
     "12": {
-      "name": "Less",
+      "name": "Javascript",
       "rating": "4"
     },
     "13": {
-      "name": "Laravel Framework",
+      "name": "MySQL",
       "rating": "4"
     },
     "14": {
-      "name": "MVC Pattern",
+      "name": "Postgres",
       "rating": "4"
     },
     "15": {
-      "name": "Method Factory Pattern",
+      "name": "Pig",
       "rating": "4"
     },
     "16": {
@@ -208,40 +208,48 @@
       "rating": "4"
     },
     "17": {
-      "name": "SASS",
-      "rating": "4"
+      "name": "Python",
+      "rating": "3"
     },
     "18": {
-      "name": "SEQ",
-      "rating": "4"
+      "name": "Hadoop",
+      "rating": "3"
     },
     "19": {
-      "name": "Singleton Pattern",
+      "name": "Firebase",
       "rating": "4"
     },
     "20": {
-      "name": "UML",
-      "rating": "4"
+      "name": "MongoDB",
+      "rating": "3"
     },
     "21": {
-      "name": "Wordpress",
-      "rating": "4"
+      "name": "Firebase",
+      "rating": "3"
     },
     "22": {
-      "name": "BEM",
+      "name": "Coffeescript",
       "rating": "3"
     },
     "23": {
+      "name": "SASS",
+      "rating": "3"
+    },
+    "24": {
+      "name": "LESS",
+      "rating": "3"
+    },
+    "25": {
       "name": "AngularJS",
       "rating": "2"
     },
-    "24": {
+    "26": {
       "name": "ElasticSearch",
       "rating": "2"
     },
-    "25": {
-      "name": "Ruby",
-      "rating": "1"
+    "27": {
+      "name": "Wordpress",
+      "rating": "2"
     }
   },
   "projects": {

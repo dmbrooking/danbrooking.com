@@ -56,12 +56,12 @@ export default class AbilityList extends React.Component {
           <div className='row'>
             <div className='col-md-6'>
               <ul className='no-bullets'>
-                {skillNodes.slice(0, 13)}
+                {skillNodes.slice(0, 14)}
               </ul>
             </div>
             <div className='col-md-6'>
               <ul className='no-bullets'>
-                {skillNodes.slice(13, 26)}
+                {skillNodes.slice(14, 28)}
               </ul>
             </div>
           </div>
