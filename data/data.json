@@ -1,75 +1,129 @@
 {
   "educations":  {
     "0": {
-      "name": "Rodenborch",
-      "dates": "Aug 1999 - Jun 2004",
-      "description": "Highschool - Havo (Nature/Technics & Nature/Health)",
-      "summary": "I graduated highschool, where I enjoyed doing science, math, biology and arts. I realized in my third year of school that I wanted to do something with websites, and so I started making small flash/actionscript applications.",
-      "location": "Rosmalen"
+      "name": "Governor's School for Government and International Studioes",
+      "dates": "Class of 1998",
+      "description": "Highschool",
+      "summary": "Ranked 13th nationally in 2013 by Newsweek and 10th by The Daily Best in 2014, Governor's School was were I was first introduced to computer programming and web development.",
+      "location": "Richmond, VA"
     },
     "1": {
-      "name": "Avans Highschool",
-      "dates": "Aug 2004 - Jun 2008",
-      "description": "Bachelor - Computer Science (Specialization: Multimedia)",
-      "summary": "The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.",
-      "location": "'s-Hertogenbosch"
+      "name": "Virginia Tech",
+      "dates": "Jan 1999 - Dec 2000",
+      "description": "Computer Science",
+      "summary": "Focusing on C++ and computer science theory, I began my college education at Virgina Tech. Here I developed a strong base of object oriented programming and the theory driving most of computer science.",
+      "location": "Blacksburg, VA"
     },
     "2": {
-      "name": "Penn University",
-      "dates": "Mar 2014 - May 2014",
-      "description": "Course - Gamification (course)",
-      "summary": "Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.",
+      "name": "Virginia Commonwealth University (VCU)",
+      "dates": "Jan 2001 - May 2004",
+      "description": "Bachelor's of Engineering in Computer Science",
+      "summary": "After being offered an opportunity to convert a summer internship into a fulltime position in 2001, I transferred to VCU to continue my education.  Coding heavily in Java, I learned the importance of modular code and took courses focusing on artificial intelligence, parallel programming, and software design.",
+      "location": "Richmond, VA"
+    },
+    "3": {
+      "name": "Johns Hopkins University",
+      "dates": "2014",
+      "description": "Data Science Track",
+      "summary": "Covering everything from getting and cleaning the data, analyzing the data, and making sure research was reproducable, these courses taught R and the ideas and procedures used to analyze sets of data. I achieved “100% with Distinction” grade from every course.",
+      "location": "Online"
+    },
+    "4": {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "dates": "2014",
+      "description": "Fundamentals of Computational Thinking and Data Science",
+      "summary": "This course allowed me to reinforce my theoretical base in computer science. Utilizing Python, I worked to create many different theoretical models and enhanced the performance of Monte Carlo simulations and stochastic models.",
       "location": "Online"
     }
   },
   "jobs": {
     "0": {
-      "name": "The Secret Lab",
-      "dates": "Aug 2015- current",
+      "name": "McKesson",
+      "dates": "Jun 1998 - Sept 2005",
       "title": "Fulltime - Senior Web Developer",
       "summary": "As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.",
-      "location": "Amsterdam",
-      "website": "http://thesecretlab.nl"
+      "location": "Richmond, VA & Dallas, TX",
+      "website": "http://www.mckesson.com"
     },
     "1": {
-      "name": "Caviar Digital",
-      "dates": "Feb 2015 - Jul 2015",
+      "name": "ASCAP",
+      "dates": "Sept 2005 - Oct 2007",
       "title": "Fulltime - Creative Developer",
       "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
-      "location": "Amsterdam",
-      "website": "http://digital.caviarcontent.com/"
+      "location": "New York, NY",
+      "website": "http://www.ascap.com/"
     },
     "2": {
-      "name": "Whoopaa / HRMatches",
-      "dates": "Aug 2015 - current",
+      "name": "Jefferies",
+      "dates": "Oct 2007 - Jan 2012",
       "title": "Fulltime - Lead Developer",
       "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
-      "location": "'s-Hertogenbosch",
-      "website": "http://www.whoopaa.com/"
+      "location": "New York, NY, Jersey City, NJ & Red Bank, NJ",
+      "website": "http://www.jefferies.com/"
     },
     "3": {
-      "name": "The Secret Lab",
-      "dates": "Aug 2015 - current",
+      "name": "Seidel & Co",
+      "dates": "Jan 2010 - ongoing",
       "title": "Fulltime - Senior Web Developer",
       "summary": "As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.",
-      "location": "Amsterdam",
-      "website": "http://thesecretlab.nl"
+      "location": "New York, NY",
+      "website": "http://www.seidelco.com"
     },
     "4": {
-      "name": "Caviar Digital",
-      "dates": "Feb 2015 - Jul 2015",
-      "title": "Fulltime - Creative Developer",
-      "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
-      "location": "Amsterdam",
-      "website": "http://digital.caviarcontent.com/"
+      "name": "Citigroup",
+      "dates": "Jan 2012 - Feb 2015",
+      "title": "Fulltime - Senior Web Developer",
+      "summary": "As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.",
+      "location": "Warren, NJ",
+      "website": "http://www.citigroup.com"
     },
     "5": {
-      "name": "Whoopaa / HRMatches",
-      "dates": "Aug 2015 - current",
+      "name": "Brokerchat",
+      "dates": "June 2012 - 2015",
+      "title": "Fulltime - Creative Developer",
+      "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
+      "location": "New York, NY",
+      "website": "http://www.brokerchat.com/"
+    },
+    "6": {
+      "name": "Picklejar",
+      "dates": "Dec 2014 - ongoing",
+      "title": "Fulltime - Creative Developer",
+      "summary": "Caviar Digital is a digital agency based in Amsterdam. I worked here as a creative developer on a big project for the new Samsung Galaxy S6 / S6 edge and created a configurable CMS based on the Laravel Framework. Due to economically reasons it was a short but good experience.",
+      "location": "Keyport, NJ",
+      "website": "http://www.getpicklejar.com/"
+    },
+    "7": {
+      "name": "Datapipe",
+      "dates": "Feb 2015 - Dec 2015",
       "title": "Fulltime - Lead Developer",
       "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
-      "location": "'s-Hertogenbosch",
-      "website": "http://www.whoopaa.com/"
+      "location": "Somerset, NJ & Jersey City, NJ",
+      "website": "http://www.datapipe.com/"
+    },
+    "8": {
+      "name": "Liaison",
+      "dates": "June 2015 - Sept 2015",
+      "title": "Fulltime - Lead Developer",
+      "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
+      "location": "Remote",
+      "website": "http://www.liaison-intl.com/"
+    },
+    "9": {
+      "name": "Rollipoll",
+      "dates": "Sept 2015 - ongoing",
+      "title": "Fulltime - Lead Developer",
+      "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
+      "location": "New York, NY",
+      "website": "http://www.rollipoll.com/"
+    },
+    "10": {
+      "name": "Betwixt.us",
+      "dates": "Dec 2015 - current",
+      "title": "Fulltime - Lead Developer",
+      "summary": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms.",
+      "location": "New York, NY",
+      "website": "http://app.betwixt.us/"
     }
   },
   "tools": {
@@ -200,7 +254,7 @@
       "rating": "4"
     },
     "15": {
-      "name": "Pig",
+      "name": "Scrum/Agile",
       "rating": "4"
     },
     "16": {
@@ -212,7 +266,7 @@
       "rating": "3"
     },
     "18": {
-      "name": "Hadoop",
+      "name": "Hadoop (Pig/Impala/Hive/MapReduce)",
       "rating": "3"
     },
     "19": {
@@ -254,45 +308,45 @@
   },
   "projects": {
     "0":  {
-      "name": "Mals",
-      "description": "Mals, a creative agency located in Rotterdam.",
-      "tags": "Development, Wordpress, Bootstrap",
-      "url": "http://studiomals.com",
+      "name": "PickleJar",
+      "description": "A web/mobile app for saving recipies.",
+      "tags": "Full Stack Development, Javascript, Rails, Mobile",
+      "url": "http://www.getpicklejar.com",
       "image": "projects_picklejar.png"
     },
     "1":  {
-      "name": "Medisch Biomagnetisme",
-      "description": "A nice one pager build for Hanneke Velthuijsen.",
-      "tags": "Development, Design, Bootstrap, Wordpress",
-      "url": "http://medischbiomagnetisme.com",
+      "name": "Rollipoll",
+      "description": "An embeddable polling solution with social aspects.",
+      "tags": "Node.js, Javascript, Optimization",
+      "url": "http://www.rollipoll.com",
       "image": "projects_rollipoll.png"
     },
     "2":  {
-      "name": "SOAP - Den Bosch",
-      "description": "Build the website of the local barbershop.",
-      "tags": "Design, Development, Bootstrap, Wordpress",
-      "url": "http://soaphair.nl",
+      "name": "Betwixt.us",
+      "description": "Webapp for faciliating networking in professional situations.",
+      "tags": "Rails, React, Scrum, Project Management",
+      "url": "http://app.betwixt.us",
       "image": "projects_betwixt.png"
     },
     "3":  {
-      "name": "Oranjebitter Rotterdam",
-      "description": "Build a website for the Oranjebitter Festival in Rotterdam.",
-      "tags": "Development, Bootstrap, Wordpress",
-      "url": "http://oranjebitter-rotterdam.nl",
+      "name": "Datapipe",
+      "description": "Built and supported internal system for billing and finance support.",
+      "tags": "Development, Rails, Hadoop",
+      "url": "http://www.datapipe.com",
       "image": "projects_datapipe.png"
     },
     "4":  {
-      "name": "Vera Mulder",
-      "description": "Created a personal website for the Journalist Vera Mulder.",
-      "tags": "Development, Design, Wordpress, Bootstrap",
-      "url": "http://veramulder.com",
+      "name": "Brokerchat",
+      "description": "Realtime voice chat utilizing HTML5 and Javascript.",
+      "tags": "Rails, Javascript, WebRTC, Node.js",
+      "url": "http://www.brokerchat.com",
       "image": "projects_brokerchat.png"
     },
     "5":  {
-      "name": "Oetelspel",
-      "description": "An online game specially for Carneval at 's-Hertogenbosch.",
-      "tags": "Development, Concept, Founder",
-      "url": "'http://oetelspel.nl",
+      "name": "Liaison",
+      "description": "Supporting onboarding functionality of new universities and programs.",
+      "tags": "Pair Programming, Rails, Support",
+      "url": "http://www.liaison-intl.com/",
       "image": "projects_liaison.png"
     }
   }
