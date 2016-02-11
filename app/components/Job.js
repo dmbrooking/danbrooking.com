@@ -24,7 +24,7 @@ export default class Job extends React.Component {
               <span className='seperator'>|</span>
               <span className='link'>
                 <span className='glyphicon glyphicon-link'></span>
-                <a href='{this.props.job.website}' target='_blank'>{this.props.job.website}</a>
+                <a href={this.props.job.website} target='_blank'>{this.props.job.website}</a>
               </span>
             </span>
           </p>

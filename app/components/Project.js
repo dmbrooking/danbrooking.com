@@ -15,7 +15,7 @@ export default class Project extends React.Component {
           <p>{this.props.project.description}
           <br/>
          <strong>Tags:</strong> <br />{this.props.project.tags}</p>
-          <a href='{this.props.project.url}' target='_blank'>View more</a>
+          <a href={this.props.project.url} target='_blank'>View more</a>
           <span className='icon'>
             <span className='glyphicon glyphicon-new-window'></span>
           </span>
