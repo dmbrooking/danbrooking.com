@@ -15,7 +15,7 @@ export default class Experience extends React.Component {
 
     this.firebaseEducationsRef = new Firebase('https://danbrooking.firebaseio.com/educations')
     this.firebaseEducationsRef.once('value', (dataSnapshot) => {
-      var educations = dataSnapshot.val()
+      var educations = dataSnapshot.val().reverse()
       this.setState({
         educations: educations
       })
@@ -23,7 +23,7 @@ export default class Experience extends React.Component {
 
     this.firebaseJobsRef = new Firebase('https://danbrooking.firebaseio.com/jobs')
     this.firebaseJobsRef.once('value', (dataSnapshot) => {
-      var jobs = dataSnapshot.val()
+      var jobs = dataSnapshot.val().reverse()
       this.setState({
         jobs: jobs
       })
@@ -50,14 +50,14 @@ export default class Experience extends React.Component {
           &ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
         </p>
         <hr />
-        <h3>Educations</h3>
-        <div className='experiences'>
-          {educationNodes}
-        </div>
-        <hr />
-        <h3>Careers</h3>
+        <h3>Work</h3>
         <div className='experiences'>
           {jobNodes}
+        </div>
+        <hr />
+        <h3>Education</h3>
+        <div className='experiences'>
+          {educationNodes}
         </div>
       </div>
     )

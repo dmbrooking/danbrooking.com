@@ -14,7 +14,7 @@ export default class Education extends React.Component {
         </div>
         <div className='col-md-8'>
           <p>
-            <strong>{this.props.education.descripion}</strong>
+            <strong>{this.props.education.description}</strong>
             <span className='hidden-phone'>{this.props.education.summary}</span>
             <span className='experience-details'>
               <span className='location'>

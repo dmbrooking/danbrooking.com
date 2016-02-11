@@ -11,10 +11,11 @@ export default class Project extends React.Component {
       <figure className='effect'>
         <img src={'images/' + this.props.project.image} alt='Mals' />
         <figcaption>
-          <h3>Mals</h3>
-          <p>Mals, a creative agency located in Rotterdam.</p>
-          <p><strong>Tags:</strong> <br />Development, Wordpress, Bootstrap</p>
-          <a href='http://studiomals.com' target='_blank'>View more</a>
+          <h3>{this.props.project.name}</h3>
+          <p>{this.props.project.description}
+          <br/>
+         <strong>Tags:</strong> <br />{this.props.project.tags}</p>
+          <a href='{this.props.project.url}' target='_blank'>View more</a>
           <span className='icon'>
             <span className='glyphicon glyphicon-new-window'></span>
           </span>
