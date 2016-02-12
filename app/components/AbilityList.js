@@ -48,7 +48,7 @@ export default class AbilityList extends React.Component {
         <div id='abilities' className='container'>
           <h2>Abilities</h2>
           <p className='lead'>
-            &ldquo;Life without knowledge is death in disguise.&rdquo;<br/>- Talib Kweli
+            {this.props.quote}
           </p>
           <hr />
           <h3>Skills</h3>
@@ -86,4 +86,8 @@ export default class AbilityList extends React.Component {
       </div>
     )
   }
+}
+
+AbilityList.propTypes = {
+  quote: React.PropTypes.object
 }

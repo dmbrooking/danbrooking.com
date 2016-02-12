@@ -30,7 +30,9 @@ export default class ProjectList extends React.Component {
     return (
       <div id='projects' className='container'>
         <h2>Projects</h2>
-        <p className='lead'>&ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin Franklin</p>
+        <p className='lead'>
+          {this.props.quote}
+        </p>
         <hr/>
         <div className='row'>
           {projectNodes}
@@ -38,4 +40,8 @@ export default class ProjectList extends React.Component {
       </div>
     )
   }
+}
+
+ProjectList.propTypes = {
+  quote: React.PropTypes.object
 }

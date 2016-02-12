@@ -5,7 +5,7 @@ import _ from 'lodash'
 import Education from './Education'
 import Job from './Job'
 
-export default class Experience extends React.Component {
+export default class ExperienceList extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -47,7 +47,7 @@ export default class Experience extends React.Component {
       <div id='experiences' className='container'>
         <h2>Experiences</h2>
         <p className='lead'>
-          &ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
+          {this.props.quote}
         </p>
         <hr />
         <h3>Work</h3>
@@ -62,4 +62,8 @@ export default class Experience extends React.Component {
       </div>
     )
   }
+}
+
+ExperienceList.propTypes = {
+  quote: React.PropTypes.object
 }
