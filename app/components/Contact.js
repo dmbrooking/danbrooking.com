@@ -7,9 +7,7 @@ export default class Contact extends React.Component {
       <div className='background-blue'>
         <div id='contact' className='container'>
           <h2>Contact</h2>
-          <p className='lead'>
-            &ldquo;If I had asked people what they wanted, they would have said faster horses. &rdquo;<br />- Henry Ford
-          </p>
+          {this.props.quote}
           <hr />
           <div className='row'>
             <div className='col-lg-12'>
@@ -43,4 +41,8 @@ export default class Contact extends React.Component {
       </div>
     )
   }
+}
+
+Contact.propTypes = {
+  quote: React.PropTypes.array
 }

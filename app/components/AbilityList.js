@@ -47,9 +47,7 @@ export default class AbilityList extends React.Component {
       <div className='background-white'>
         <div id='abilities' className='container'>
           <h2>Abilities</h2>
-          <p className='lead'>
-            {this.props.quote}
-          </p>
+          {this.props.quote}
           <hr />
           <h3>Skills</h3>
           <div className='row'>
@@ -89,5 +87,5 @@ export default class AbilityList extends React.Component {
 }
 
 AbilityList.propTypes = {
-  quote: React.PropTypes.object
+  quote: React.PropTypes.array
 }

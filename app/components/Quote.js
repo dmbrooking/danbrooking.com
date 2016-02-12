@@ -8,9 +8,11 @@ export default class Quote extends React.Component {
   render () {
     return (
       <div>
-        &ldquo;{this.props.quote.quote}&rdquo;
-        <br />
-        - {this.props.quote.attribution}
+        <p className='lead'>
+          &ldquo;{this.props.quote.quote}&rdquo;
+          <br />
+          - {this.props.quote.attribution}
+        </p>
       </div>
     )
   }

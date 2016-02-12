@@ -22,7 +22,7 @@ export default class App extends React.Component {
 
     this.firebaseQuotesRef = new Firebase('https://danbrooking.firebaseio.com/quotes')
     this.firebaseQuotesRef.once('value', (dataSnapshot) => {
-      var quotes = _.shuffle(dataSnapshot.val()).slice(0, 3)
+      var quotes = _.shuffle(dataSnapshot.val()).slice(0, 4)
       this.setState({
         quotes: quotes
       })
@@ -44,7 +44,7 @@ export default class App extends React.Component {
         <ExperienceList quote={quoteNodes.slice(0, 1)}/>
         <AbilityList quote={quoteNodes.slice(1, 2)}/>
         <ProjectList quote={quoteNodes.slice(2, 3)}/>
-        <Contact/>
+        <Contact quote={quoteNodes.slice(3, 4)}/>
       </div>
     )
   }

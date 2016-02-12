@@ -46,9 +46,7 @@ export default class ExperienceList extends React.Component {
     return (
       <div id='experiences' className='container'>
         <h2>Experiences</h2>
-        <p className='lead'>
-          {this.props.quote}
-        </p>
+        {this.props.quote}
         <hr />
         <h3>Work</h3>
         <div className='experiences'>
@@ -65,5 +63,5 @@ export default class ExperienceList extends React.Component {
 }
 
 ExperienceList.propTypes = {
-  quote: React.PropTypes.object
+  quote: React.PropTypes.array
 }
