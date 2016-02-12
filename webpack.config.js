@@ -15,7 +15,7 @@ const common = {
   entry: PATHS.app,
 
   output: { publicPath: '/' },
-  
+
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
@@ -42,7 +42,7 @@ const common = {
 };
 
 // Default configuration
-if(TARGET === 'start' || !TARGET) {
+if(TARGET === 'build' || !TARGET) {
   module.exports = merge(common, {
     devtool: 'eval-source-map',
     devServer: {
@@ -69,6 +69,14 @@ if(TARGET === 'start' || !TARGET) {
   });
 }
 
-if(TARGET === 'build') {
-  module.exports = merge(common, {});
+if(TARGET === 'deploy') {
+  module.exports = merge(common, {
+    plugins: [
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false
+        }
+      })
+    ]
+  })
 }
