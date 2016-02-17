@@ -41,7 +41,7 @@
       "name": "McKesson",
       "dates": "Jun 1999 - Sept 2005",
       "title": "Intern, Help Desk Lead, Systems Engineer",
-      "summary": "I began my carrer in development and technology at McKesson as a summer intern analyzing systems and desktops for Y2K compliance. I worked in multiple roles from assisting the system administrators to helping start and build an internal corporate help desk. In 2004, upon graduating from college, I transferred internally to an office in Dallas, TX where I began working with the Tivoli suite of enterprise management products.",
+      "summary": "I began my career in development and technology at McKesson as a summer intern analyzing systems and desktops for Y2K compliance. I worked in multiple roles from assisting the system administrators to helping start and build an internal corporate help desk. In 2004, upon graduating from college, I transferred internally to an office in Dallas, TX where I began working with the Tivoli suite of enterprise management products.",
       "location": "Richmond, VA & Dallas, TX",
       "website": "http://www.mckesson.com"
     },
@@ -49,7 +49,7 @@
       "name": "ASCAP",
       "dates": "Sept 2005 - Oct 2007",
       "title": "Consultant, Scheduling Specialist, Performance Testing",
-      "summary": "ASCAP was in the middle of a project migrating their entire royalty calcualtion system from mainframe processing to a batch driven Java/Oracle system. I was hired to manage the entire Tivoli Workload Scheduler infrastructure. I was also utilized to run performance tests across the system and was integral in working to address significant areas needing improvement. With some rework on database connection logic, I was able to get one batch job down from just over a 25 hour runtime to around 30 minutes.",
+      "summary": "ASCAP was in the middle of a project migrating their entire royalty calculation system from mainframe processing to a batch driven Java/Oracle system. I was hired to manage the entire Tivoli Workload Scheduler infrastructure. I was also utilized to run performance tests across the system and was integral in working to address significant areas needing improvement. With some rework on database connection logic, I was able to get one batch job down from just over a 25 hour runtime to around 30 minutes.",
       "location": "New York, NY",
       "website": "http://www.ascap.com/"
     },
@@ -105,7 +105,7 @@
       "name": "Liaison",
       "dates": "June 2015 - Sept 2015",
       "title": "Consultant",
-      "summary": "Liaison provides a service to college applicants and to the programs within the universities allowing for an prospective student to fill out an application once and apply to multiple programs. While at Liaison, I was instrumental in testing full time pair programming that was eventually deemed to be a success. Day to day responsibilities included onboarding and configuration for new programs and feature enhancements for existing programs.",
+      "summary": "Liaison provides a service to college applicants as well as programs within the universities allowing for a prospective student to fill out an application once and apply to multiple programs. While at Liaison, I was instrumental in testing full time pair programming that was eventually deemed to be a success. Day to day responsibilities included onboarding and configuration for new programs and feature enhancements for existing programs.",
       "location": "Remote",
       "website": "http://www.liaison-intl.com/"
     },
@@ -121,7 +121,7 @@
       "name": "Betwixt.us",
       "dates": "Dec 2015 - current",
       "title": "Senior Lead Developer, CTO",
-      "summary": "Betwixt.us is a startup that focuses on making social networking at the professional level much more personable. I came into the project in December of 2015 as the first fulltime technical hire. Being the first technical hire, I wore multiple hats. My duties included full stack web development (Rails and React Javascript), dev-ops (administering and configuring stage and production deploys, monitoring, etc) and project maanagement (Jira was implemented along with Agile development methodology). I also have the opportunity to implement real time big data processing solutions as our useerbase grows utilizing multiple datapoints in a user personality matching algorithm.",
+      "summary": "Betwixt.us is a startup that focuses on making social networking at the professional level much more personable. I came into the project in December of 2015 as the first fulltime technical hire. Being the first technical hire, I wore multiple hats. My duties include full stack web development (Rails and React Javascript), dev-ops (administering and configuring stage and production deploys, monitoring, etc) and project management (Jira was implemented along with Agile development methodology). I also have the opportunity to implement real time big data processing solutions as our userbase grows utilizing multiple datapoints in a user personality matching algorithm.",
       "location": "New York, NY",
       "website": "http://app.betwixt.us/"
     }
