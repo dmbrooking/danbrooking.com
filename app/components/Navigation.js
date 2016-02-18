@@ -20,6 +20,7 @@ export default class Navigation extends React.Component {
             <li><a href='#abilities'>Abilities</a></li>
             <li><a href='#projects'>Projects</a></li>
             <li><a href='#contact'>Contact</a></li>
+            <li><a href='/gamedev.html'>Game Dev</a></li>
           </ul>
         </div>
       </nav>
