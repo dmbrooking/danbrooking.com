@@ -1,0 +1,90 @@
+[
+  {
+    "name": "McKesson",
+    "dates": "Jun 1999 - Sept 2005",
+    "title": "Intern, Help Desk Lead, Systems Engineer",
+    "summary": "I began my career in development and technology at McKesson as a summer intern analyzing systems and desktops for Y2K compliance. I worked in multiple roles from assisting the system administrators to helping start and build an internal corporate help desk. In 2004, upon graduating from college, I transferred internally to an office in Dallas, TX where I began working with the Tivoli suite of enterprise management products.",
+    "location": "Richmond, VA & Dallas, TX",
+    "website": "http://www.mckesson.com"
+  },
+  {
+    "name": "ASCAP",
+    "dates": "Sept 2005 - Oct 2007",
+    "title": "Consultant, Scheduling Specialist, Performance Testing",
+    "summary": "ASCAP was in the middle of a project migrating their entire royalty calculation system from mainframe processing to a batch driven Java/Oracle system. I was hired to manage the entire Tivoli Workload Scheduler infrastructure. I was also utilized to run performance tests across the system and was integral in working to address significant areas needing improvement. With some rework on database connection logic, I was able to get one batch job down from just over a 25 hour runtime to around 30 minutes.",
+    "location": "New York, NY",
+    "website": "http://www.ascap.com/"
+  },
+  {
+    "name": "Jefferies",
+    "dates": "Oct 2007 - Jan 2012",
+    "title": "Fulltime - Lead Developer",
+    "summary": "I began my work at Jefferies as a Tivoli Workload Scheduler specialist but almost immediately transitioned into the role of lead Perl developer. In this role, I built out an entire ETL system from scratch for pulling position data in from multiple sources in the firm and feeding into our Market Risk and Credit Risk applications. This ETL system eventually grew to support all corporate functions including both HR and Accounting.",
+    "location": "New York, NY, Jersey City, NJ & Red Bank, NJ",
+    "website": "http://www.jefferies.com/"
+  },
+  {
+    "name": "Seidel & Co",
+    "dates": "Jan 2010 - Jan 2015",
+    "title": "On Demand Consultant",
+    "summary": "Seidel & Co is a brokerage firm in New York City that I consult for on various projects they need ranging from small projects such as parsing files received daily via email to building a custom trade entry system in Rails with user generated reports.",
+    "location": "New York, NY",
+    "website": "http://www.seidelco.com"
+  },
+  {
+    "name": "Citigroup",
+    "dates": "Jan 2012 - Feb 2015",
+    "title": "Consultat, Senior PL/SQL Developer",
+    "summary": "At Citigroup, I worked on the Account Master Central (AMC) project which as the name suggests, is the central system for storing and accessing institutional account data. My work focused on PL/SQL Oracle develoment where I developed a quasi-CRUD interface to the database using custom record and collection types. I also worked directly with the messaging and cloud teams to ensure the data flowing from our system was timely and accurate. My third primary role involved leading a project to sync and integrate legacy functionality into the system and retire those legacy applications.",
+    "location": "Warren, NJ",
+    "website": "http://www.citigroup.com"
+  },
+  {
+    "name": "Brokerchat",
+    "dates": "June 2012 - 2015",
+    "title": "Owner, Sole Developer",
+    "summary": "Brokerchat is a web application that allows for real time voice communication utilizing nothing but HTML and Javascript. The intent is to replace a system that costs firms thousands of dollars a month due to the reliance on phone lines and external hardware. I developed the full stack using Rails and Node.js to handle both messaging between clients using socket.io (user logged in, logged out, is away, etc) and the voice communication using WebRTC.",
+    "location": "New York, NY",
+    "website": "http://www.brokerchat.com/"
+  },
+  {
+    "name": "Picklejar",
+    "dates": "Dec 2014 - ongoing",
+    "title": "Owner, Sole Developer",
+    "summary": "Picklejar is a web application and soon to be mobile application that allows users to save recipes from any site on the Internet.  This is done via a browser extension, a bookmarklet, or a quick action on mobile. Recipes will then be accessible from one location on any device with an internet connection or via the mobile app. Future enhancments include shopping lists and having a specific recipe shipped to you with the proper amount of each ingredient.",
+    "location": "Keyport, NJ",
+    "website": "http://www.getpicklejar.com/"
+  },
+  {
+    "name": "Liaison",
+    "dates": "June 2015 - Sept 2015",
+    "title": "Consultant",
+    "summary": "Liaison provides a service to college applicants as well as programs within the universities allowing for a prospective student to fill out an application once and apply to multiple programs. While at Liaison, I was instrumental in testing full time pair programming that was eventually deemed to be a success. Day to day responsibilities included onboarding and configuration for new programs and feature enhancements for existing programs.",
+    "location": "Remote",
+    "website": "http://www.liaison-intl.com/"
+  },
+  {
+    "name": "Rollipoll",
+    "dates": "Sept 2015 - Jan 2016",
+    "title": "Consultant, Equity Owner",
+    "summary": "Rollipoll is a service allowing content providers to create a customized poll which generates a html div that can be embedded in their pages. The unique aspect of this service is it allows social sharing after someone votes which drives traffic back to the site. I was brought in to perform optimizations on the number of Parse database connections and ended up decreasing the number of requests to Parse at a ratio of approximately 50 to 1.",
+    "location": "New York, NY",
+    "website": "http://www.rollipoll.com/"
+  },
+  {
+    "name": "Betwixt.us",
+    "dates": "Dec 2015 - May 2016",
+    "title": "Senior Lead Developer, CTO",
+    "summary": "Betwixt.us is a startup that focuses on making social networking at the professional level much more personable. I came into the project in December of 2015 as the first fulltime technical hire. Being the first technical hire, I wore multiple hats. My duties include full stack web development (Rails and React Javascript), dev-ops (administering and configuring stage and production deploys, monitoring, etc) and project management (Jira was implemented along with Agile development methodology). I also have the opportunity to implement real time big data processing solutions as our userbase grows utilizing multiple datapoints in a user personality matching algorithm.",
+    "location": "New York, NY",
+    "website": "http://app.betwixt.us/"
+  },
+  {
+    "name": "Datapipe",
+    "dates": "Feb 2015 - Dec 2015, May 2016-Sept 2018",
+    "title": "Senior Rails Developer, Hadoop Developer",
+    "summary": "Datapipe is a cloud service provider and reseller. I worked in the Cloud Products group which supported an internal application used by finance and sales for billing and configuration and an external application used by customers. I was integral in implementing a big data project with Hadoop that saw us migrating from a summarized billing system with AWS to a detailed 75+ million record hourly usage report.",
+    "location": "Somerset, NJ & Jersey City, NJ",
+    "website": "http://www.rackspace.com/"
+  }
+]

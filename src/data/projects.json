@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PickleJar",
+    "description": "A web/mobile app for saving recipies.",
+    "tags": "Full Stack Development, Javascript, Rails, Mobile",
+    "url": "http://www.getpicklejar.com",
+    "image": "projects_picklejar.png"
+  },
+  {
+    "name": "Rollipoll",
+    "description": "An embeddable polling solution with social aspects.",
+    "tags": "Node.js, Javascript, Optimization",
+    "url": "http://www.rollipoll.com",
+    "image": "projects_rollipoll.png"
+  },
+  {
+    "name": "Betwixt.us",
+    "description": "Webapp for faciliating networking in professional situations.",
+    "tags": "Rails, React, Scrum, Project Management",
+    "url": "http://app.betwixt.us",
+    "image": "projects_betwixt.png"
+  },
+  {
+    "name": "Datapipe",
+    "description": "Built and supported internal system for billing and finance support.",
+    "tags": "Development, Rails, Hadoop",
+    "url": "http://www.datapipe.com",
+    "image": "projects_datapipe.png"
+  },
+  {
+    "name": "Brokerchat",
+    "description": "Realtime voice chat utilizing HTML5 and Javascript.",
+    "tags": "Rails, Javascript, WebRTC, Node.js",
+    "url": "http://www.brokerchat.com",
+    "image": "projects_brokerchat.png"
+  },
+  {
+    "name": "Liaison",
+    "description": "Supporting onboarding functionality of new universities and programs.",
+    "tags": "Pair Programming, Rails, Support",
+    "url": "http://www.liaison-intl.com/",
+    "image": "projects_liaison.png"
+  }
+]

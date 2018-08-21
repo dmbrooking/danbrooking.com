@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Governor's School for Government and International Studioes",
+    "dates": "Class of 1998",
+    "description": "Highschool",
+    "summary": "Ranked 13th nationally in 2013 by Newsweek and 10th by The Daily Best in 2014, Governor's School was were I was first introduced to computer programming and web development.",
+    "location": "Richmond, VA"
+  },
+  {
+    "name": "Virginia Tech",
+    "dates": "Jan 1999 - Dec 2000",
+    "description": "Computer Science",
+    "summary": "Focusing on C++ and computer science theory, I began my college education at Virgina Tech. Here I developed a strong base of object oriented programming and the theory driving most of computer science.",
+    "location": "Blacksburg, VA"
+  },
+  {
+    "name": "Virginia Commonwealth University (VCU)",
+    "dates": "Jan 2001 - May 2004",
+    "description": "Bachelor's of Engineering in Computer Science",
+    "summary": "After being offered an opportunity to convert a summer internship into a fulltime position in 2001, I transferred to VCU to continue my education.  Coding heavily in Java, I learned the importance of modular code and took courses focusing on artificial intelligence, parallel programming, and software design.",
+    "location": "Richmond, VA"
+  },
+  {
+    "name": "Johns Hopkins University",
+    "dates": "2014",
+    "description": "Data Science Track",
+    "summary": "Covering everything from getting and cleaning the data, analyzing the data, and making sure research was reproducable, these courses taught R and the ideas and procedures used to analyze sets of data. I achieved “100% with Distinction” grade from every course.",
+    "location": "Online"
+  },
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "dates": "2014",
+    "description": "Fundamentals of Computational Thinking and Data Science",
+    "summary": "This course allowed me to reinforce my theoretical base in computer science. Utilizing Python, I worked to create many different theoretical models and enhanced the performance of Monte Carlo simulations and stochastic models.",
+    "location": "Online"
+  }
+]

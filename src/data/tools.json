@@ -1,0 +1,18 @@
+[
+  { "name": "Google Chrome", "rating": "5" },
+  { "name": "Firefox", "rating": "5" },
+  { "name": "MS Office", "rating": "5" },
+  { "name": "Mac", "rating": "5" },
+  { "name": "Atom", "rating": "5" },
+  { "name": "Jira", "rating": "5" },
+  { "name": "Windows", "rating": "5" },
+  { "name": "Scrum", "rating": "5" },
+  { "name": "Github", "rating": "4" },
+  { "name": "Heroku", "rating": "4" },
+  { "name": "Bitbucket", "rating": "4" },
+  { "name": "MAMP", "rating": "4" },
+  { "name": "AWS", "rating": "3" },
+  { "name": "Sublime Text", "rating": "3" },
+  { "name": "Subversion", "rating": "3" },
+  { "name": "Eclipse", "rating": "3" }
+]
